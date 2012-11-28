@@ -28,7 +28,12 @@ var BusterHelpers = module.exports = {
       {
         logging:  options.logging,
         dialect:  options.dialect,
+<<<<<<< HEAD
         port:     config[options.dialect].port
+=======
+        port:     config[options.dialect].port,
+        pool:     config[options.dialect].pool
+>>>>>>> eb63317... Simpler implementation of the connection part of the pg dialect - especially around connection pooling.
       }
     )
   },
